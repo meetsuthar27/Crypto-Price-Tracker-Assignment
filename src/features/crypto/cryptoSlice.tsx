@@ -3,6 +3,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 type CoinData = {
   rank: number;
   name: string;
+  logo: string;
   symbol: string;
   price: number;
   change1h: number;
@@ -19,7 +20,7 @@ type CryptoState = {
 };
 
 const initialState: CryptoState = {
-  coins: [], // will be set initially with mockData
+  coins: [],
 };
 
 const cryptoSlice = createSlice({
@@ -34,7 +35,15 @@ const cryptoSlice = createSlice({
       action: PayloadAction<{ index: number; updates: Partial<CoinData> }>
     ) {
       const { index, updates } = action.payload;
-      state.coins[index] = { ...state.coins[index], ...updates };
+
+      // Create a new array with the updated coin
+      const updatedCoins = [...state.coins];
+      updatedCoins[index] = {
+        ...updatedCoins[index],
+        ...updates,
+      };
+
+      state.coins = updatedCoins;
     },
   },
 });

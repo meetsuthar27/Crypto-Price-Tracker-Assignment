@@ -33,7 +33,7 @@ const mockData = [
     name: "Tether",
     symbol: "USDT",
     price: "$1.00",
-    change1h: 0.0,
+    change1h: 0.01,
     change24h: 0.0,
     change7d: 0.04,
     marketCap: "$145,320,022,085",

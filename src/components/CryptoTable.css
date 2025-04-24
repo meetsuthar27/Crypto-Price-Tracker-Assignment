@@ -15,6 +15,7 @@
   --header-bg: #ffffff;
   --table-radius: 12px;
   --element-radius: 8px;
+  --tooltip: #ffffff4a;
 }
 
 [data-theme="dark"] {
@@ -32,6 +33,7 @@
   --shadow-color: rgba(0, 0, 0, 0.2);
   --control-bg: #1e293b;
   --header-bg: #0f172a;
+  --tooltip: #1e293b7c;
 }
 
 .crypto-table-container {
@@ -89,7 +91,7 @@
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  background-color: #ffffff4a;
+  background-color: var(--tooltip);
   backdrop-filter: blur(10px);
   border: solid 1px var(--border-color);
   box-shadow: 0 4px 20px var(--shadow-color);
