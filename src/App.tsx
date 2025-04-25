@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     dispatch(setCoins(mockData));
-    startMockUpdates(dispatch);
+    startMockUpdates(dispatch, mockData.length);
   }, [dispatch]);
 
   return (

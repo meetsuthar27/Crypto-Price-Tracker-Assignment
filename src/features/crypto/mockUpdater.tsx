@@ -20,7 +20,7 @@ export const startMockUpdates = (dispatch: AppDispatch, coinCount: number) => {
           change24h: Number(change24h),
           change7d: Number(change7d),
           volume24h: Number(getRandomFloat(1000000, 500000000, 2)),
-          marketCap: `$${getRandomFloat(1000000000, 500000000000, 2)}`,
+          marketCap: Number(getRandomFloat(1000000000, 500000000000, 0)),
         },
       })
     );

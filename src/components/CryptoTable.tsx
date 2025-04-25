@@ -237,8 +237,8 @@ const CryptoTable = () => {
                   )}
                 </div>
               </td>
-              <td>{coin.marketCap}</td>
-              <td>${coin.volume24h}</td>
+              <td>$ {coin.marketCap}</td>
+              <td>$ {coin.volume24h}</td>
               <td>{coin.supply}</td>
               <td>
                 <img

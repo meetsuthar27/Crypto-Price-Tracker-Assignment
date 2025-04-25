@@ -9,7 +9,7 @@ type CoinData = {
   change1h: number;
   change24h: number;
   change7d: number;
-  marketCap: string;
+  marketCap: number;
   volume24h: number;
   supply: string;
   graph: string;
