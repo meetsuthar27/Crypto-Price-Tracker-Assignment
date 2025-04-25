@@ -96,6 +96,22 @@ src/
 - Light/dark mode toggle
 - Persistent preference (localStorage)
 
+## UI Screenshots
+
+**Light Mode**
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/9c05c6e0-5ac2-4f47-add0-c968978edc53" />
+
+**Dark Mode**
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/baccc4d3-9ab7-4bd6-94c4-05c064a25cbb" />
+
+**Sort and Filter function**
+<img width="435" alt="image" src="https://github.com/user-attachments/assets/5520687b-9fe3-48db-8df7-49031e164d6c" />
+
+**Tooltip for new terms**
+<img width="611" alt="image" src="https://github.com/user-attachments/assets/ec6d5bd6-5785-4650-9534-1c7077124be9" />
+<img width="396" alt="image" src="https://github.com/user-attachments/assets/f7f2b16d-aebc-4926-b784-3684435cf324" />
+
+
 ## Technical Details
 
 **Redux Implementation:**
