@@ -33,8 +33,8 @@ A cryptocurrency tracking dashboard built with React + Redux Toolkit that simula
 1. Clone repository:
 
 ```bash
-git clone https://github.com/your-username/crypto-tracker.git
-cd crypto-tracker
+git clone https://github.com/meetsuthar27/Crypto-Price-Tracker-Assignment.git
+cd cryptoapp-assignment
 ```
 
 2. Install dependencies:
@@ -112,3 +112,15 @@ src/
 - Vite
 - CSS Modules
 - React Icons
+
+## Future Improvements
+
+This project was developed as part of an internship assignment, but there's plenty of room for future enhancements. Some ideas include:
+
+- Integrating real-time data from public crypto APIs (e.g., CoinGecko, CoinMarketCap)
+- Adding pagination and infinite scroll for large datasets
+- Creating detailed coin pages with historical charts and analytics
+- Implementing user preferences and watchlists
+- Deploying the app for live usage
+
+Thank you for checking out the project! Feedback and suggestions are always welcome.
